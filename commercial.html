@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commercial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="category.css">
+</head>
+<body>
+  <!-----------sticky------------->
+  <div class="container-fluid">
+    <div class="row" id="sticky">
+      <marquee direction="left" width="40%" scrollamount="5"> <strong>Note:</strong>free shipping in Pakistan in 4-5 Days with 100% Money back guarantee</marquee>
+    </div>
+  </div>
+   <!-----------sticky------------->
+  
+   <!---------------navbar--------------> 
+   <nav class="navbar navbar-expand-lg" >
+    <div class="container-fluid sticky">
+      <a class="navbar-brand" href="index.html"><img  width="250px"  src="images/logo.jpg" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+
+          <li class="nav-item dropbtn">
+            <a class="nav-link" href="products.html">Products</a>
+            <ul class="dropdown1">
+              <li><a href="rainheads.html">Rain heads</a></li> 
+              <li><a href="DownpipeandRainBarrelDiverters.html">Downpipe and Rain Barrel Diverters</a></li>
+              <li><a href="TankScreensandSolarShields.html">Tank Screens and Solar Shields</a></li>
+              <li><a href="FirstFlushDiverters.html">First Flush Diverters</a></li>
+              <li><a href="PipeScreens.html">Pipe Screens, Tank Overflows and Vent Cowls</a></li>
+              <li><a href="Post-Tank.html">Post-Tank Filters</a></li>
+            </li>
+            </ul>
+
+          <li class="nav-item">
+            <a class="nav-link" href="learningcenter.html">Learning Center</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="facts.html">Facts</a>
+          </li>
+          <li class="nav-item dropbtn">
+            <a class="nav-link" href="#">Category</a>
+            <ul class="dropdown2">
+              <li><a href="residential.html">Residential Area</a></li> 
+              <li><a href="commercial.html">Commercial Area</a></li>
+            </li>
+            </ul>
+          
+          <li class="nav-item">
+            <a class="nav-link l" href="techniques.html">Latest Technique's</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="steps.html"> Steps</a>
+          </li>
+
+          
+          <li class="nav-item dropbtn">
+            <a class="nav-link" href="#">Support</a>
+            <ul class="dropdown3">
+              <li><a href="aboutus.html">About Us</a></li> 
+              <li><a href="policy.html">Policy</a></li>
+              <li><a href="termsandconditions.html">Terms & Conditions</a></li>
+              <li><a href="testimonials.html">Tesimonials</a></li>
+            </li>
+            </ul>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+  <!---------------navbar end-------------->
+  
+  <div class="slideshow-container">
+  
+    <div class="mySlides fade">
+   
+      <img src="images/co1.jpg" style="width:100%;height: 400px;">
+      <div class="text"></div>
+    </div>
+    
+    <div class="mySlides fade">
+   
+      <img src="images/co2.jpg" style="width:100%;height: 400px;">
+      <div class="text"></div>
+    </div>
+    
+    <div class="mySlides fade">
+     
+      <img src="images/co3.JPG" style="width:100%;height: 400px;">
+      <div class="text"></div>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); 
+    }
+    </script>
+  
+  <!-----slideshow end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container-fluid">
+    <div class="row" id="commercial-box">
+<h1 class="text-center">Rainwater Harvesting Systems for Commercial Area</h1>
+<p class="text-center">Commercial rainwater harvesting systems are integrated into your current building's design.
+   Utilizing rooftops and downspouts, commercial rainwater harvesting creates large catchment areas
+    that redirect rainwater into storage areas for later use. In order to maximize a rainwater harvesting 
+    system, commercial buildings rely on RMS for design, expertise, and systems integration. 
+    Water conservation efforts are receiving heightened attention and businesses that choose to implement 
+    commercial rainwater collection systems not only help in that effort, but can save companies money in
+     the process.</p>
+    </div>
+
+
+  </div>
+
+  <div class="container-fluid">
+    <div class="row" id="commercial-box2">
+      <p><span>Commercial Rainwater Harvesting Applications</span><br><br><br>Commercial rainwater collection systems efficiently collect large amounts of rainwater. repurposing that water into a variety of applications. Rainwater harvesting can help businesses conserve millions of gallons of water over the lifetime of their system, saving them money at the same time.<br><br>By utilizing large-scale rainwater harvesting systems, companies can manage stormwater runoff onsite by alleviating a large section of impervious area from their management plan. Rainwater harvesting isn't just an environmentally sound thing to do, it's economically beneficial as well. Here are a few of the applications for commercial rainwater harvesting systems</p>
+      <ul>
+        <li>Stormwater Management</li>
+        <li>Fire Suppression</li>
+        <li>Irrigation and Agriculture</li>
+        <li>Fixture Flushing</li>
+        <li>Cooling Towers</li>
+        <li>Vehicle Washing</li>
+        <li>Equipment Washing</li>
+        <li>Laundry</li>
+       </ul>
+    </div>
+  </div>
+
+  <div class="container" id="applications">
+   <div class="row">
+<!----card  1-->
+    <div class="col-md-6">
+      <div class="card" id="rc-card">
+        <img src="images/storm.jpg" alt="" height="250PX">
+          <div class="card-body">
+            <h3 class="card-title">Stormwater Management</h3>
+            <p class="card-text">Harvesting rainwater is also an integral part of Stormwater BMPs. By collecting rainwater from buildings and putting it to use, you reduce the runoff from these facilities and decrease your impervious surface area which can reduce the size of any potential onsite detention/retention. A commercial rainwater harvesting system can also be integrated with a stormwater reuse system for a more robust water conservation effort</p>
+
+        </div>
+    </div>
+
+    </div>
+    <!----card  2-->
+    <div class="col-md-6">
+      <div class="card" id="rc-card">
+        <img src="images/fire.jpg" alt="" height="250PX">
+          <div class="card-body">
+            <h3 class="card-title">Fire Suppression</h3>
+            <p class="card-text">Large commercial buildings can utilize rainwater harvesting to store large amounts of water for automated fire suppression systems and other emergency situations</p>
+
+        </div>
+    </div>
+
+    </div>
+  <!---card 3-->    
+  <div class="col-md-6">
+    <div class="card" id="rc-card">
+      <img src="images/irrigation.jpg" alt="" height="250PX">
+        <div class="card-body">
+          <h3 class="card-title">Irrigation and Agriculture</h3>
+          <p class="card-text">Using rainwater harvesting, commercial buildings can replace municipal water for landscape irrigation. As businesses implement the design of green spaces around and in their buildings, rainwater can be a valuable resource for helping keep those areas green and reduce costs by supplementing or replacing the municipal source.</p>
+
+      </div>
+  </div>
+
+  </div>
+ <!----card 4-->    
+ <div class="col-md-6">
+  <div class="card" id="rc-card">
+    <img src="images/equipment.jfif" alt="" height="250PX">
+      <div class="card-body">
+        <h3 class="card-title">Equipment Washing</h3>
+        <p class="card-text">Because rainwater is naturally soft, it results in little to no water spotting. This makes it excellent for washing vehicles. Whether you have a large car dealership or transit facility, using large-scale rainwater harvesting systems for vehicle washing reduces your water costs and saves on long-term maintenance/replacement of windshields and paint</p>
+
+    </div>
+</div>
+
+</div>
+ <!----card 5-->    
+ <div class="col-md-6">
+  <div class="card" id="rc-card">
+    <img src="images/flushing.jpg" alt="" height="250PX">
+      <div class="card-body">
+        <h3 class="card-title">Fixture Flushing</h3>
+        <p class="card-text">Flushing toilets/urinals can be one of the largest uses of municipal water in a large office building. By using clean filtered water from commercial rainwater collection businesses can replace potable municipal water, reduce their monthly costs and conserve water at the same time.</p>
+
+    </div>
+</div>
+
+</div>
+ <!----card 6-->    
+ <div class="col-md-6">
+  <div class="card" id="rc-card">
+    <img src="images/tower.jpg" alt="" height="250PX">
+      <div class="card-body">
+        <h3 class="card-title">Cooling Towers</h3>
+        <p class="card-text">Another heavy user of water in large commercial buildings are cooling towers. Commercial rainwater harvesting can be used as make-up water to replace what is lost during evaporation and blow down of most cooling systems. Rainwater is also naturally soft water, which means that it is more efficient as it can cycle more frequently. </p>
+
+    </div>
+</div>
+
+</div>
+ <!----card 7-->    
+ <div class="col-md-6">
+  <div class="card" id="rc-card">
+    <img src="images/vehicles.jpg" alt="" height="250PX">
+      <div class="card-body">
+        <h3 class="card-title">Vehicle</h3>
+        <p class="card-text">Because rainwater is naturally soft, it results in little to no water spotting. This makes it excellent for washing vehicles. Whether you have a large car dealership or transit facility, using large-scale rainwater harvesting systems for vehicle washing reduces your water costs and saves on long-term maintenance/replacement of windshields and paint</p>
+
+    </div>
+</div>
+
+</div>
+ <!----card 8-->    
+ <div class="col-md-6">
+  <div class="card" id="rc-card">
+    <img src="images/laundry.jpg" alt="" height="250PX">
+      <div class="card-body">
+        <h3 class="card-title">Laundry</h3>
+        <p class="card-text">Harvested rainwater is a great alternative to municipal water for commercial or large residential laundry facilities such as those found at hotels, apartment complexes and dormitories. Commercial rainwater collection systems reduce water costs for the building and lowers required maintenance on machines as the naturally soft rainwater will cause less scale buildup.</p>
+
+    </div>
+</div>
+
+</div>
+
+
+   </div> 
+  </div>
+<!-----footer-------->
+<footer>
+  <div class="row footer-row">
+    <div class="col-md-3 col">
+      <h1>RainWater<br><span>Harvesting</span></h1>
+      <p>Rainwater harvesting is one of the simplest and oldest methods of self-supply of water for households, having been used in South Asia and other countries for many thousands of years.</p>
+      </div>
+    <div class="col-md-3 col">
+            
+      <ul>
+        <h3>Resourses <div class="underline"><span></span></div></h3>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="facts.html">RainWater Harvesting Facts</a></li>
+        <li><a href="techniques.html">Latest Techniques</a></li>
+        <li><a href="commercial.html">Commercial Harvesting</a></li>
+        <li><a href="residential.html">Residential Harvesting</a></li>
+      </ul>
+    </div>
+    <div class="col-md-3 col">
+
+      <ul>
+        <h3>Support<div class="underline"><span></span></div></h3>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="policy.html">Policy</a></li>
+        <li><a href="termsandconditions.html">Terms And Conditions</a></li>
+      </ul>
+    </div>
+    <div class="col-md-3 col">
+      <h3>We Are Social <br>Connect With Us</h3>
+
+      <div class="social-links">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
